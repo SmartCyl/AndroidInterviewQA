@@ -1,0 +1,1 @@
+`Application`和`Activity`在`Context`的继承树上有何区别？二者使用上有什么不同？
