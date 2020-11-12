@@ -1,0 +1,2 @@
+- `ARouter`初始化做了什么事情？
+- `ARouter`是怎么启动 Activity 或者 Fragment 的？
