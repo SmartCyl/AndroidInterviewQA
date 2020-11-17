@@ -1,4 +1,4 @@
-## Service 是否在主线程中运行？Service 中是否能执行耗时的操作？
+## █ Service 是否在主线程中运行？Service 中是否能执行耗时的操作？
 
 默认情况下，Service 运行在当前应用所在进程的主线程中，也可以给 Service 指定进程
 
