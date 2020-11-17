@@ -1,4 +1,4 @@
-## ◆ Service 是否在主线程中运行？Service 中是否能执行耗时的操作？
+## █ Service 是否在主线程中运行？Service 中是否能执行耗时的操作？
 
 默认情况下，Service 运行在当前应用所在进程的主线程中，也可以给 Service 指定进程
 
@@ -13,7 +13,7 @@ Service 运行在主线程，而主线程不能执行耗时的操作（网络/IO
 
 
 
-#### Service 的启动方式？
+## █ Service 的启动方式？
 
 Service 启动方式有两种，分别是 `startService`和`bindService`。
 
@@ -23,7 +23,7 @@ Service 启动方式有两种，分别是 `startService`和`bindService`。
 
 
 
-#### Service 的生命周期？
+## █ Service 的生命周期？
 
 Service 的启动方式有两种，不同的启动方式，Service 的生命周期会有所不同。
 
@@ -47,7 +47,7 @@ Service 的启动方式有两种，不同的启动方式，Service 的生命周�
 
 
 
-#### 什么是 IntentService ？
+## █ 什么是 IntentService ？
 
 IntentService 是 Service 的子类，它与 Service 不同的是，Service 是运行在主线程中的，而 IntentService 是运行在 子线程中的。IntentService 的 `onCreate` 方法中启动了一个线程 `HandlerThread`，并获取了 HandlerThread 这个子线程的 Looper，因此最终处理消息是在 Looper 所在的子线程中。在 onStart 中将消息发送出去，处理消息是在 IntentHandler 的内部类 ServiceHandler 中的 handleMessage 中，handleMessage 中调用了处理事件的抽象方法 onHandleIntent 方法（具体业务由子类实现），处理完成之后调用 stopSelf 方法终止自己，因此不需要开发者手动停止服务。
 
