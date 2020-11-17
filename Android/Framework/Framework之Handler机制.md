@@ -1,0 +1,13 @@
+#### `Handler`原理
+
+#### `Handler`的`post(Runnble)`是怎么实现的？
+
+#### `Callback`、`Runnble`、`msg`的执行优先级
+
+#### `Handler`机制`Looper`从`MessageQueue`取完消息后会怎么样？
+
+#### `loop.prepare()`做了什么？
+
+#### `handler.sendEmptyMessageDelay()`和`handler.postDelayed()`的区别？
+
+#### `MessageQueue`的数据结构
