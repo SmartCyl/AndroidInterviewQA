@@ -5,7 +5,7 @@
 ```xml
 <service
 	android:name="com.xx.XXService"
-    android:enabled="true"
+  android:enabled="true"
 	android:process=":remote"/>
 ```
 
