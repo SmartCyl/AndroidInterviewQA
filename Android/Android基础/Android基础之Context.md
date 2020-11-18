@@ -1,4 +1,4 @@
-#### `Application`和`Activity`在`Context`的继承树上有何区别？二者使用上有什么不同？
+## █ Application 和 Activity 在 Context 的继承树上有何区别？二者使用上有什么不同？
 
 ![](https://i.loli.net/2020/11/17/edX6MgHzNFx7Pmj.png)
 
@@ -17,7 +17,7 @@
 
 
 
-#### `Activity`、`Context`、`Application`有什么区别？
+## █ Activity 、Context 、Application 有什么区别？
 
 Activity 和 Application 都是 Context 的子类，在 Activity 中，Context 就是 Activity，在 Application 中，Context 就是 Application。在 Activity 中 调用`getApplicationContext` 获取到的 Context 就是一个 Application 对象。
 
@@ -27,7 +27,7 @@ Activity 和 Application 的生命周期也是不一样的，Activity 表示一�
 
 
 
-#### `Context`是什么？一个应用有多少个`Context`？
+## █ Context 是什么？一个应用有多少个 Context ？
 
 Context 表示应用的上下文，可以通过 Context 获取到系统的服务、资源等，并且可以通过 Context 进行页面跳转。
 

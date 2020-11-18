@@ -20,9 +20,11 @@ Java基础之匿名内部类
 
 Java基础之强引用、软引用、弱引用及虚引用
 
-Java基础之序列化
+Java基础之hashcode
 
 Java基础之String
+
+Java基础之动态代理
 
 
 
@@ -40,9 +42,21 @@ Java集合之LinkedList
 
 ## Java并发
 
+Java并发之锁
+
+Java并发之线程池
+
+Java并发之synchronized
+
+Java并发之volatile
+
 
 
 ## Java虚拟机
+
+Java虚拟机之垃圾回收
+
+
 
 
 
@@ -52,9 +66,33 @@ Java集合之LinkedList
 
 ## Android基础
 
+Android基础之Activity
+
+Android基础之Fragment
+
+Android基础之Service
+
+Android基础之BroadcastReceiver
+
+Android基础之ContentProvider
+
+Android基础之Context
+
+Android基础之Intent
+
+Android基础之序列化
+
+Android基础之组件化
+
 
 
 ## View相关
+
+View相关之动画
+
+View相关之绘制流程
+
+View相关之事件分发
 
 
 
@@ -65,6 +103,14 @@ Framework之AMS
 Framework之Binder机制
 
 Framework之Handler机制
+
+Framework之插件化
+
+
+
+## 性能优化
+
+Android性能优化
 
 
 
@@ -82,10 +128,9 @@ Framework之Handler机制
 
 开源框架之RxJava
 
+开源框架之ARouter
 
 
-
-# 计算机网络
 
 # 设计模式
 
@@ -153,6 +198,9 @@ Framework之Handler机制
 
 # 数据结构
 
-
 # 算法
+
+
+
+# 计算机网络
 
