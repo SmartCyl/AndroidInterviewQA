@@ -1,4 +1,4 @@
-## █ `ARouter`初始化做了什么事情？
+## █ ARouter 初始化做了什么事情？
 
 在 ARouter 的 Init() 方法中调用了 _ARouter  的 init() 方法，在初始化过后接着调用了 _ARouter 的 afterInit() 方法做后续的工作。
 
