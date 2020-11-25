@@ -61,3 +61,22 @@ ANR 即 Application Not Responding，应用未响应。应用在规定的时间�
 ## █ 内存泄漏是什么？怎么查找？
 
 ## █ 项目中做了哪些网络优化？
+
+## █ 怎么分析内存泄漏
+
+内存泄漏工具：
+
+- MAT 内存分析工具
+- AndroidStudio 的 Profiler
+- LeakCanary
+
+
+
+常见内存泄漏造成原因：
+
+- 资源对象未关闭
+- BroadcastReceiver、EventBus 等注册后未反注册
+- 类的静态变量持有大数据对象
+- 单例
+- 非静态内部类
+- Handler
